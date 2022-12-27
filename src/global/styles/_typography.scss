@@ -1,0 +1,10 @@
+.heading {
+  color: transparent;
+  text-align: center;
+  background-image: radial-gradient(
+    100% 108.16% at 100% 0%,
+    var(--color-primary) 0%,
+    var(--color-secondary) 100%
+  );
+  -webkit-background-clip: text;
+}

@@ -1,0 +1,16 @@
+$namespace: tp !default;
+
+$breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px,
+) !default;
+
+$color-primary-default: #409bbf !default;
+$color-secondary-default: #40bbbf !default;
+
+$color-base-default: #fff !default;
+$color-text-default: #000 !default;

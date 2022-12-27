@@ -1,0 +1,12 @@
+@use '../../utilities/scss/variables';
+
+.#{namespace}-header {
+  color: transparent;
+  text-align: center;
+  background-image: radial-gradient(
+    circle at 100% 0%,
+    var(--color-primary),
+    var(--color-secondary)
+  );
+  -webkit-background-clip: text;
+}

@@ -1,0 +1,8 @@
+@use './variables';
+
+:root {
+  --#{$namespace}-color-primary: #{$color-primary-default};
+  --#{$namespace}-color-secondary: #{$color-secondary-default};
+  --#{$namespace}-color-base: #{$color-base-default};
+  --#{$namespace}-color-text: #{$color-text-default};
+}
